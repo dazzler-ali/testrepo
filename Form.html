@@ -1,0 +1,64 @@
+<html>
+<head>
+<title>Application Form</title>
+</head>
+<body style="background-color:pink">
+<fieldset>
+<legend><h3>Personal Information</h3></legend>
+<img src="ali.jpg" alt="person" style="width:300;height:300"; align="right">
+First Name:
+<input type="text" name="firstname" placeholder="Enter The First Name" required<br><br><br>
+Last Name:
+<input type="text" name="last name" placeholder="Enter the last name" required><br><br><br>
+Gender:
+<input type="radio" name="gender" value="male">Male
+<input type="radio" name="gender" value="female">Female<br><br><br>
+Birthday:
+<input type="datetime-local" name="bdaytime"><br><br><br>
+Country:
+<input list="Country" name="Country">
+<datalist id="Country">
+<option value="India">
+<option value="Pakistan">
+<option value="Bagladesh">
+<option value="Afganistan">
+<option value="Japan">
+<option value="Australia">
+<option value="Korea">
+</datalist><br><br><br>
+E-mail:
+<input type="email" name="email"><br><br><br>
+Select Your Favourite Color:
+<input type="color" name="favcolor" value="#ff0000"><br><br><br>
+Address:
+<br/><textarea rows='6' cols='40'></textarea><br>
+</fieldset>
+<br>
+<br>
+<fieldset>
+<legend><h3>Educational Details</h3></legend>
+Degree:
+<input list="Degree" Name="Degree">
+<datalist id="Degree">
+<option value="B.tech">
+<option value="Bsc">
+<option value="M.tech">
+<option value="B.arch">
+</datalist><br><br><br>
+Certified Course:<br/><textarea rows='6' cols='40'></textarea>
+</fieldset>
+<br><br>
+<fieldset>
+<legend<<h3>Work Experience</h3></legend>
+Knowlwdge In:
+<input type="checkbox" name="html" Value="html">HTML
+<input type="checkbox" name="css" value="css">CSS
+<input type="checkbox" name="java" value="java">JAVA
+<input type="checkbox" name="sql" value="sql">SQL
+<br><br><br>
+Year Of Experience:
+<input type="number" name="years" min='0' max='50' step='1' value='0'><br><br>
+</fieldset><br>
+<input type="submit" title="Enter the above details and click me"; align="right"> 
+</body>
+</html>
